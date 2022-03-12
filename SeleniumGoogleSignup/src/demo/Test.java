@@ -41,7 +41,7 @@ public class Test {
        driver.findElement(By.id("BirthYear")).sendKeys("1997");
        driver.findElement(By.cssSelector(" div[title='Gender']")).sendKeys("Female");
        driver.findElement(By.id("RecoveryPhoneNumber")).sendKeys("91234554372");
-       driver.findElement(By.id("RecoveryEmailAddress")).sendKeys("seleniumtrain@gmail.com");
+       driver.findElement(By.id("RecoveryEmailAddress")).sendKeys("Your Receovery Email Address");
        driver.findElement(By.cssSelector("#CountryCode div[title='Location']")).sendKeys("India");
   
  }
